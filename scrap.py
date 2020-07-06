@@ -45,6 +45,7 @@ medium = pd.DataFrame({'article_name':title,'url':url2,'words':words,'claps':cla
 print(medium)
 
 np.savetxt('medium.txt', medium, fmt = '%s', delimiter='    /n     ')
+medium.to_excel('medium.xlsx')
 
 
 
