@@ -46,6 +46,8 @@ print(medium)
 
 np.savetxt('medium.txt', medium, fmt = '%s', delimiter='    /n     ')
 medium.to_excel('medium.xlsx')
+medium.to_csv('medium.csv')
+
 
 
 
